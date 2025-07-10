@@ -17,11 +17,11 @@ source venv/bin/activate
 venv\Scripts\activate.bat    
 ```
 7. Установить зависимости в соответствии с requirements.txt:
-   ```bash pip install -r requirements.txt ```
+   ``` pip install -r requirements.txt ```
 9. Загрузить пакет nltk:
-   ``` bash python -c "import nltk; nltk.download('punkt')" ```
+   ```  python -c "import nltk; nltk.download('punkt')" ```
 10. Запустить программу:
-  ``` bash python my_app.py ```
+  ```  python my_app.py ```
 11. Открыть в браузере http://127.0.0.1:5000;
 12. Загрузить на открывшейся странице документ с расширением .pdf и нажать кнопку "Предсказать".
 
