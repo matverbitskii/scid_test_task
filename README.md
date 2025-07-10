@@ -10,7 +10,7 @@
 
    cd /Users/username/Desktop/НАЗВАНИЕ_ПАПКИ
 5. Создать и активировать виртуальное окружение:
-<pre> ```bash python -m venv venv source venv/bin/activate # для macOS/Linux venv\Scripts\activate.bat # для Windows ``` </pre>
+<pre> ``` python -m venv venv source venv/bin/activate # для macOS/Linux venv\Scripts\activate.bat # для Windows ``` </pre>
 7. Установить зависимости в соответствии с requirements.txt:
   pip install -r requirements.txt
 8. Загрузить пакет nltk:
