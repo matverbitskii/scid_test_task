@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PDF классификатор</title>
+</head>
+<body>
+    <h2>Загрузка PDF для классификации</h2>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="pdf" accept=".pdf">
+        <button type="submit">Предсказать</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Категория: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
