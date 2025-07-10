@@ -7,22 +7,21 @@
 1. Загрузить архив репозитория и распаковать его;
 2. Установить Python 3.10+;
 3. Перейти в папку, куда распаковали архив (если распаковали в папку на рабочем столе, то):
-
-   cd /Users/username/Desktop/НАЗВАНИЕ_ПАПКИ
+   ```bash cd /Users/username/Desktop/НАЗВАНИЕ_ПАПКИ ```
 5. Создать и активировать виртуальное окружение:
 ```bash
 python -m venv venv
-source venv/bin/activate     # для macOS/Linux
-venv\Scripts\activate.bat    # для Windows
+source venv/bin/activate     # macOS/Linux
+venv\Scripts\activate.bat    # Windows
 ```
 7. Установить зависимости в соответствии с requirements.txt:
-  pip install -r requirements.txt
-8. Загрузить пакет nltk:
-   python -c "import nltk; nltk.download('punkt')"
-9. Запустить программу:
-   python my_app.py
-10. Открыть в браузере http://127.0.0.1:5000;
-11. Загрузить на открывшейся странице документ с расширением .pdf и нажать кнопку "Предсказать".
+   ```bash pip install -r requirements.txt ```
+9. Загрузить пакет nltk:
+   ``` bash python -c "import nltk; nltk.download('punkt')" ```
+10. Запустить программу:
+  ``` bash python my_app.py ```
+11. Открыть в браузере http://127.0.0.1:5000;
+12. Загрузить на открывшейся странице документ с расширением .pdf и нажать кнопку "Предсказать".
 
 ## Использование
 1. Автоматическое присвоение тэгов к постам или комментариям на форуме;
