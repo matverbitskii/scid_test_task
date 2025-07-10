@@ -37,7 +37,8 @@ venv\Scripts\activate.bat    # Windows
 6. my_model.keras - сохраненная предобученная нейросеть;
 7. my_vectorizer.pkl - предобученный векторизатор текста;
 8. requirements.txt - зависимости;
-9. README.md.
+9. test_app.py - автотесты для базовых функций;
+10. README.md.
 
 ## Зависимости
 Python 3.10+; Flask; Keras; Scikit-Learn; numpy;
