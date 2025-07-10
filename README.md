@@ -11,8 +11,10 @@
 5. Создать и активировать виртуальное окружение:
 ```bash
 python -m venv venv
-source venv/bin/activate     # macOS/Linux
-venv\Scripts\activate.bat    # Windows
+# macOS/Linux
+source venv/bin/activate
+# Windows    
+venv\Scripts\activate.bat    
 ```
 7. Установить зависимости в соответствии с requirements.txt:
    ```bash pip install -r requirements.txt ```
